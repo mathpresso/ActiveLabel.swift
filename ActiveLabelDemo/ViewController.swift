@@ -27,7 +27,8 @@ class ViewController: UIViewController {
         label.urlMaximumLength = 31
 
         label.customize { label in
-            label.text = "This is a post with #multiple #hashtags and a @userhandle. Linksare#Hashtag #해시태그#테스트 are also supported like\n" +
+            label.text = "# ####한 #글 #자 #해#시#태#그\n" +
+              "This is a post with #multiple #hashtags and a @userhandle. Linksare#Hashtag #해시태그#테스트 are also supported like\n" +
               "Test00#Test01#Test테스트02.helloWorld!\n" +
               " this one: http://optonaut.co. Now it also supports custom patterns -> are\n\n" +
                   "Let's trim a long link: \nhttps://twitter.com/twicket_app/status/649678392372121601"
