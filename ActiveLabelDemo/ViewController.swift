@@ -27,9 +27,11 @@ class ViewController: UIViewController {
         label.urlMaximumLength = 31
 
         label.customize { label in
-            label.text = "# ####한 #글 #자 #해#시#태#그\n" +
+            label.text = "#아주긴_해시태그_동해물과백두산이마르고닳도록하느님이보우하사우리나라만세무궁화삼천리화려강산대한사람대한으로길이보전하세아주긴해시태그동해물과백두산이마르고닳도록하느님이보우하사우리나라만세무궁화삼천리화려강산대한사람대한으로길이보전하세아주긴해시태그동해물과백두산이마르고닳도록하느님이보우하사우리나라만세무궁화삼천리화려강산대한사람대한으로길이보전하세아주긴해시태그동해물과백두산이마르고닳도록하느님이보우하사우리나라만세무궁화삼천리화려강산대한사람대한으로길이보전하세아주긴해시태그동해물과백두산이마르고닳도록하느님이보우하사우리나라만세무궁화삼천리화려강산대한사람대한으로길이보전하세\n" + "# ####한 #글 #자 #해#시#태#그\n" +
               "This is a post with #multiple #hashtags and a @userhandle. Linksare#Hashtag #해시태그#테스트 are also supported like\n" +
               "Test00#Test01#Test테스트02.helloWorld!\n" +
+              "링크인식 테스트: www.optonaut.co\nNow it also supports custom patterns -> are\n\n" +
+
               " this one: http://optonaut.co. Now it also supports custom patterns -> are\n\n" +
                   "Let's trim a long link: \nhttps://twitter.com/twicket_app/status/649678392372121601"
             label.numberOfLines = 0
@@ -68,7 +70,7 @@ class ViewController: UIViewController {
             label.handleCustomTap(for: customType3) { self.alert("Custom type", message: $0) }
         }
 
-        label.frame = CGRect(x: 20, y: 40, width: view.frame.width - 40, height: 300)
+      label.frame = CGRect(x: 20, y: 40, width: view.frame.width - 40, height: view.frame.height-40)
         view.addSubview(label)
         
         
