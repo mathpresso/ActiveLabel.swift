@@ -33,7 +33,8 @@ class ViewController: UIViewController {
               "링크인식 테스트: www.optonaut.co\nNow it also supports custom patterns -> are\n\n" +
 
               " this one: http://optonaut.co. Now it also supports custom patterns -> are\n\n" +
-                  "Let's trim a long link: \nhttps://twitter.com/twicket_app/status/649678392372121601"
+                  "Let's trim a long link: \nhttps://twitter.com/twicket_app/status/649678392372121601\n"
+           + "#마마마마마마마마마마"
             label.numberOfLines = 0
             label.lineSpacing = 4
             
