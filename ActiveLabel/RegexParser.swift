@@ -12,7 +12,7 @@ struct RegexParser {
 
   // 원 라이브러리에서는 hashtagPattern = "(?:^|\\s|$)#[\\p{L}0-9_]*"였으나 콴다에서 필요로 의해 변경
   // "#([^\\W]+)" : 글자수 제한 없는 버전
-    static let hashtagPattern = "#([^\\W]{1,30}(\\s|$))"
+    static let hashtagPattern = "#([^\\W]{1,30})"
 
     static let mentionPattern = "(?:^|\\s|$|[.])@[\\p{L}0-9_]*"
     static let emailPattern = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
